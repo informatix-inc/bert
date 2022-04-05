@@ -1,0 +1,9 @@
+file_paths:
+  bpe_file: "<path to directory>\bpe.txt"
+  count_file: "<path to directory>\bpe_dict.csv"
+  roberta_weight: "<path to directory>\roberta.pth"
+  linear_weight: "<path to directory>\linear_word.pth"
+  roberta_config: "<path to directory>\roberta_config.json"
+  juman_config: # Path to config file for juman. Default is none 
+
+device_type: "cuda"
